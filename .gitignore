@@ -1,32 +1,27 @@
-# Byte-compiled / optimized / DLL files
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# PyCharm files
+.idea/
+
+# Cache files
+.cache.sqlite
 __pycache__/
 *.py[cod]
-*$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtualenv
+# Virtual environment
+.venv
 venv/
 ENV/
 env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
